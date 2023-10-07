@@ -1,4 +1,4 @@
-/** 
+/**
  * HubSpot Analytics Tracking Code Build Number 1.535
  * Copyright 2023 HubSpot, Inc.  http://www.hubspot.com
  */
@@ -8,7 +8,7 @@ _hsq.push(['setTrackingGate', 'WA:FeatureEventVisualizer']);
 _hsq.push(['initEventVisualizerScript']);
 _hsq.push(['setPortalId', 21615363]);
 _hsq.push(['trackPageView']);
-_hsq.push(["trackClick", ".button mb-34 mb--10 w-button", "000014662220", {"url":"https://airbyte.com/pricing"}]);
+_hsq.push(["trackClick", ".button mb-34 mb--10 w-button", "000014662220", {"url":"https://whaleal.com/pricing"}]);
 _hsq.push(["trackClick", "body > div.pricing-hero-section.wf-section > div.pricing-container-big.left-align > div.pricing-h1-div > div.hero-left-flexbox > a.button.mb-34.mb--10.w-button", "pe21615363_clicked_on_pricing_calculator", {"url":null,"trackingConfigId":15243526}]);
 _hsq.push(['setLegacy', false]);
 _hsq.push(['addCookieDomain', '.hubspotpagebuilder.com']);
