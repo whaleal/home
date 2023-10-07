@@ -1,12 +1,12 @@
 var _hsp = window['_hsp'] = window['_hsp'] || [];
-_hsp.push(['setBannerSettings', {"try.whaleal.com":[{"portalId":21615363,"domain":"try.whaleal.com","label":"GDPR Policy","enabled":true,"configuration":{"allUrlsAndLocations":true,"path":null,"targetedCountries":[]},"policy":{"type":3,"text":{"notification":"This website stores cookies on your computer. These cookies are used to improve your website experience and provide more personalized services to you, both on this website and through other media. To find out more about the cookies we use, see our Privacy Policy.","acceptLabel":"Accept","declineLabel":"Decline","disclaimer":"We won't track your information when you visit our site. But in order to comply with your preferences, we'll have to use just one tiny cookie so that you're not asked to make this choice again.","modalText":null}},"legacyCustomization":{"position":0,"accentColor":"#00bda5","showCloseButton":true},"gpcSettings":{"enabled":false,"notificationText":null},"id":17244,"createdAt":1663024335824,"createdBy":0,"updatedAt":1663024335824,"updatedBy":0,"deletedAt":null}]}]);
+_hsp.push(['setBannerSettings', {"try.airbyte.com":[{"portalId":21615363,"domain":"try.airbyte.com","label":"GDPR Policy","enabled":true,"configuration":{"allUrlsAndLocations":true,"path":null,"targetedCountries":[]},"policy":{"type":3,"text":{"notification":"This website stores cookies on your computer. These cookies are used to improve your website experience and provide more personalized services to you, both on this website and through other media. To find out more about the cookies we use, see our Privacy Policy.","acceptLabel":"Accept","declineLabel":"Decline","disclaimer":"We won't track your information when you visit our site. But in order to comply with your preferences, we'll have to use just one tiny cookie so that you're not asked to make this choice again.","modalText":null}},"legacyCustomization":{"position":0,"accentColor":"#00bda5","showCloseButton":true},"gpcSettings":{"enabled":false,"notificationText":null},"id":17244,"createdAt":1663024335824,"createdBy":0,"updatedAt":1663024335824,"updatedBy":0,"deletedAt":null}]}]);
 _hsp.push(['setUseSecureCookies', true]);
-_hsp.push(['addCookieDomain', '.whaleal.io']);
+_hsp.push(['addCookieDomain', '.airbyte.io']);
 _hsp.push(['addCookieDomain', '.hsforms.com']);
 _hsp.push(['addCookieDomain', '.hs-sites.com']);
 _hsp.push(['addCookieDomain', '.hubspot.com']);
 _hsp.push(['addCookieDomain', '.hubspotpagebuilder.com']);
-_hsp.push(['addCookieDomain', '.whaleal.com']);
+_hsp.push(['addCookieDomain', '.airbyte.com']);
 _hsp.push(['setApiBaseUrl', 'https://js.hs-banner.com/v2']);
 /**
  * HubSpot Cookie Banner Code Copyright 2023 HubSpot, Inc.  http://www.hubspot.com
