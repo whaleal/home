@@ -13,10 +13,10 @@ _hsq.push(["trackClick", "body > div.pricing-hero-section.wf-section > div.prici
 _hsq.push(['setLegacy', false]);
 _hsq.push(['addCookieDomain', '.hubspotpagebuilder.com']);
 _hsq.push(['addCookieDomain', '.hs-sites.com']);
-_hsq.push(['addCookieDomain', '.airbyte.com']);
+_hsq.push(['addCookieDomain', '.whaleal.com']);
 _hsq.push(['addCookieDomain', '.hubspot.com']);
 _hsq.push(['addCookieDomain', '.hsforms.com']);
-_hsq.push(['addCookieDomain', '.airbyte.io']);
+_hsq.push(['addCookieDomain', '.whaleal.io']);
 _hsq.push(['enableAutomaticLinker', true]);
 _hsq.push(['setLimitTrackingToCookieDomains', true]);
 _hsq.push(['enableSecureCookie']);
