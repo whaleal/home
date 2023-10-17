@@ -341,26 +341,7 @@
 
 
   <!-- / Segment + Posthog -->
-  <!-- <script>
-    !function () {
-      var analytics = window.analytics = window.analytics || []; if (!analytics.initialize) if (analytics.invoked) window.console && console.error && console.error("Segment snippet included twice."); else {
-        analytics.invoked = !0; analytics.methods = ["trackSubmit", "trackClick", "trackLink", "trackForm", "pageview", "identify", "reset", "group", "track", "ready", "alias", "debug", "page", "once", "off", "on", "addSourceMiddleware", "addIntegrationMiddleware", "setAnonymousId", "addDestinationMiddleware"]; analytics.factory = function (e) { return function () { var t = Array.prototype.slice.call(arguments); t.unshift(e); analytics.push(t); return analytics } }; for (var e = 0; e < analytics.methods.length; e++) { var key = analytics.methods[e]; analytics[key] = analytics.factory(key) } analytics.load = function (key, e) { var t = document.createElement("script"); t.type = "text/javascript"; t.async = !0; t.src = "https://seg.airbyte.com/analytics.js/v1/" + key + "/analytics.min.js"; var n = document.getElementsByTagName("script")[0]; n.parentNode.insertBefore(t, n); analytics._loadOptions = e }; analytics._writeKey = "Y7py0BqGEiPE0FEtW501WEIkhFwtim37"; analytics._cdn = "https://seg.airbyte.com"; analytics.SNIPPET_VERSION = "4.15.3";
-        analytics.load("Y7py0BqGEiPE0FEtW501WEIkhFwtim37");
-        analytics.page();
-        analytics.ready(() => {
-          posthog.init('phc_nDqhwWXMaa3iBGeFc2mpalN5f9zdpGlfETOkPejtDlZ', {
-            api_host: 'https://app.posthog.com',
-            persistence: "localStorage+cookie",
-            loaded: function (posthog) {
-              const ajs_anonymous_id = Cookies.get('ajs_anonymous_id')
-              posthog.identify(ajs_anonymous_id)
-              phLoaded(posthog)
-            }
-          })
-        })
-      }
-    }();
-  </script> -->
+
   <meta name="facebook-domain-verification" content="xf4lb27ys1lp8c9zgjz1jr91bjgh73">
 
   <style>
@@ -549,222 +530,7 @@
       background: transparent !important
     }
   </style>
-  <!-- <style id="_goober">
-    .go2933276541 {
-      position: fixed;
-      display: block;
-      width: 100%;
-      height: 0px;
-      margin: 0px;
-      padding: 0px;
-      overflow: visible;
-      transform-style: preserve-3d;
-      background: transparent;
-      backface-visibility: hidden;
-      pointer-events: none;
-      left: 0px;
-      z-index: 9998;
-    }
-
-    .go2369186930 {
-      top: 0px;
-      z-index: 9999;
-      height: 100%;
-      width: 100%;
-    }
-
-    .go1348078617 {
-      bottom: 0px;
-    }
-
-    .go2417249464 {
-      position: fixed;
-      z-index: 9989;
-    }
-
-    .go3921366393 {
-      left: 0;
-      bottom: 0;
-    }
-
-    .go3967842156 {
-      right: 0;
-      bottom: 0;
-    }
-
-    .go613305155 {
-      left: 0;
-      top: 0;
-    }
-
-    .go471583506 {
-      right: 0;
-      top: 0;
-    }
-
-    .go3670563033 {
-      position: relative;
-      overflow: hidden;
-      display: none;
-    }
-
-    .go1041095097 {
-      display: block;
-    }
-
-    .go1632949049 {
-      position: absolute;
-      pointer-events: none;
-      width: 101vw;
-      height: 101vh;
-      background: rgba(0, 0, 0, 0.7);
-      opacity: 0;
-      z-index: -1;
-    }
-
-    .go1366308204 {
-      z-index: 99998;
-      opacity: 0.5;
-      visibility: visible;
-      pointer-events: all;
-      cursor: pointer;
-    }
-
-    .go812842568 {
-      display: block !important;
-      position: static !important;
-      box-sizing: border-box !important;
-      background: transparent !important;
-      border: none;
-      min-height: 0px !important;
-      max-height: none !important;
-      margin: 0px;
-      padding: 0px !important;
-      height: 100% !important;
-      width: 1px !important;
-      max-width: 100% !important;
-      min-width: 100% !important;
-    }
-
-    .go2729809544 {
-      z-index: 99999;
-      visibility: hidden;
-      position: absolute;
-      inset: 50vh auto auto 50%;
-      transform: translate(-50%, -50%);
-      left: 50%;
-      top: 50%;
-      opacity: 0;
-      pointer-events: none;
-      max-height: 95%;
-      max-width: 95%;
-    }
-
-    .go1011812720 {
-      pointer-events: auto !important;
-      visibility: visible;
-      opacity: 1;
-      transition: opacity 1s ease-in;
-    }
-
-    .go3128134379 {
-      pointer-events: auto !important;
-      visibility: visible !important;
-      max-height: 95vh !important;
-      transition: max-height 1s ease-in;
-    }
-
-    .go494047706 {
-      z-index: 9999;
-      width: 100%;
-      max-height: 95%;
-      position: fixed;
-      visibility: hidden;
-    }
-
-    .go2481764524 {
-      z-index: 9999;
-      width: 100%;
-      max-height: 95%;
-      position: fixed;
-      visibility: hidden;
-      bottom: 0px;
-    }
-
-    .go2685733372 {
-      visibility: hidden;
-    }
-
-    .go2985984737 {
-      visibility: visible !important;
-    }
-
-    .go3281949485 {
-      pointer-events: auto !important;
-      visibility: visible !important;
-      max-height: 95vh !important;
-      transform: none !important;
-    }
-
-    .go3539422596 {
-      z-index: 9999;
-      width: 100%;
-      max-height: 95%;
-      position: fixed;
-      visibility: hidden;
-      transition: transform 0.5s cubic-bezier(0.31, -0.2, 0.04, 1.47);
-    }
-
-    .go988075951 {
-      z-index: 9999;
-      position: fixed;
-      left: 10px;
-      top: 10px;
-      max-height: 95vh !important;
-      max-width: 95%;
-      visibility: hidden;
-    }
-
-    .go2699082514 {
-      z-index: 9999;
-      position: fixed;
-      right: 10px;
-      top: 10px;
-      max-height: 95vh !important;
-      max-width: 95%;
-      visibility: hidden;
-    }
-
-    .go1595992025 {
-      z-index: 9999;
-      position: fixed;
-      left: 10px;
-      bottom: 10px;
-      max-height: 95vh !important;
-      max-width: 95%;
-      visibility: hidden;
-    }
-
-    .go1222083472 {
-      z-index: 9999;
-      position: fixed;
-      right: 10px;
-      bottom: 10px;
-      max-height: 95vh !important;
-      max-width: 95%;
-      visibility: hidden;
-    }
-
-    .go26732895 {
-      cursor: pointer;
-    }
-
-    .go2083580917 {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-  </style> -->
+  
   <script async="" src="./home_files/integrations"></script>
   <script async="" src="./home_files/js(2)"></script>
   <script async="true" type="text/javascript" src="./home_files/f.txt"></script>
@@ -956,13 +722,6 @@
           }
         </style>
       </div>
-      <!-- <div id="banner" class="navigation_banner">
-        <div class="navigation_content">
-          <div>Bring more data to LLMs:&nbsp;Airbyte can now write to <strong>vector databases! </strong><a
-              href="https://whaleal.com/blog/airbyte-now-supports-vector-databases-powered-by-langchain" target="_blank"
-              class="text-style-link text-color-white">Learn more.</a></div>
-        </div>
-      </div> -->
       <div class="navigation_container"><a href="./index.html" aria-current="page"
           class="logo-wrapper w-nav-brand w--current" aria-label="home">
           <div class="html-logo-left w-embed"><svg width="50" height="40" viewBox="0 0 100 100" fill="none"
@@ -2126,7 +1885,7 @@
               <div class="home-offers_card"><img src="./home_files/64833b3d42eeb9783dff7e57_home offer bg 3@2x.webp"
                   loading="lazy"
                   sizes="(max-width: 479px) 100vw, (max-width: 767px) 95vw, (max-width: 991px) 92vw, (max-width: 1439px) 30vw, 410.671875px"
-                  srcset="https://assets-global.website-files.com/605e01bc25f7e19a82e74788/64833b3d42eeb9783dff7e57_home%20offer%20bg%203%402x-p-500.webp 500w, https://assets-global.website-files.com/605e01bc25f7e19a82e74788/64833b3d42eeb9783dff7e57_home%20offer%20bg%203%402x.webp 767w"
+                  srcset=""
                   alt="" class="home-offers_card-bg">
                 <h3 class="margin-0">Whaleal <span class="home-offers_title-span">Self-Managed</span></h3>
                 <div class="text-size-small">Pay for Support or enterprise features while staying on-prem.<br>‍</div><a
@@ -2235,7 +1994,7 @@
                   id="w-node-_6389a424-304c-2796-2b05-22fed2eaeff2-fe13cb3f"
                   sizes="(max-width: 479px) 100vw, (max-width: 767px) 384px, (max-width: 991px) 29vw, (max-width: 1439px) 30vw, 410.65625px"
                   alt=""
-                  srcset="https://assets-global.website-files.com/605e01bc25f7e19a82e74788/64ee1516da9d285d894ccad7_state%20of%20data%20cta-p-500.webp 500w, https://assets-global.website-files.com/605e01bc25f7e19a82e74788/64ee1516da9d285d894ccad7_state%20of%20data%20cta.webp 767w"
+                  srcset=""
                   class="home-resources_image"></a><a id="w-node-_6389a424-304c-2796-2b05-22fed2eaeff3-fe13cb3f" href=""
                 class="home-resources_link-wrapper w-inline-block"><img
                   src="./home_files/resource-card (1).webp" loading="lazy"
@@ -2333,25 +2092,6 @@
           src="./home_files/636270dd2bda9b450ac852cd_gdpr badge.svg" loading="lazy" alt="gdpr badge"
           class="footer_security-icon"><img src="./home_files/63cfef43867ebf615b0994b5_hipaa_icon@2x.png" loading="lazy"
           alt="hipaa logo" class="footer_security-icon"></div>
-      <!-- <div class="popup-modal" style="display: none;">
-        <div class="popup-overlay"></div>
-        <div class="popup"><img src="./home_files/60ec2eb9446e3dfd408a23af_airbyte-community-without-background 2.png"
-            loading="lazy" height="384" width="397" alt="" aria-hidder="true" class="octopus">
-          <div class="squares-holder"><img src="./home_files/60ec2965cfd091820f6cc74b_Frame 338.svg" loading="lazy"
-              width="524" height="146" alt="" aria-hidden="true" class="quares-bg-image"></div>
-          <div class="logo-holder"><img src="./home_files/60ec2965d1a05c6367b3e3af_slack-2 (1) 1.svg" loading="lazy"
-              width="134" height="35" alt="Slack logo" class="slack-logo-pu"></div>
-          <div class="popup-content">
-            <h2 class="popup-header">Get answers quick on <br>Airbyte Slack</h2>
-            <p class="popup-p">Hi there! Did you know our Slack is the most active Slack community on data integration?
-              It’s also the easiest way to get help from our vibrant community.</p>
-          </div>
-          <div class="btn-holder"><a
-              href="https://slack.airbyte.io/?__hstc=27854691.f638febca2055e7b2c438678dc6ef932.1694420980278.1694577337713.1694582387482.5&amp;__hssc=27854691.3.1694582387482&amp;__hsfp=409410475"
-              target="_blank" class="popup-button w-button">Join Airbyte Slack</a><a href="https://whaleal.com/#"
-              class="popup-ghost-button w-button">I’m not interested in joining</a></div>
-        </div>
-      </div> -->
     </footer>
   </div><iframe name="__uspapiLocator" style="display: none;" src="./home_files/saved_resource.html"></iframe>
   <script src="./home_files/jquery-3.5.1.min.dc5e7f18c8.js"></script>
@@ -2377,58 +2117,12 @@
       };
     }
   </script>
-  <!-- <script>
-    $('.popup-modal').hide()
-    function addEvent(obj, evt, fn) {
-      if (obj.addEventListener) {
-        obj.addEventListener(evt, fn, false);
-      } else if (obj.attachEvent) {
-        obj.attachEvent("on" + evt, fn);
-      }
-    }
-
-    function modalOnMouseOut() {
-      addEvent(document, 'mouseout', function (evt) {
-        if (evt.toElement == null && evt.relatedTarget == null && localStorage.getItem('exitIntent') !== 'true') {
-          $('.popup-modal').css('display', 'flex').fadeIn('fast');
-          localStorage.setItem('exitIntent', 'true');
-        };
-      });
-
-    }
-
-
-    // function to get the current scroll position (%)
-    function getVerticalScrollPercentage(elm) {
-      var parent = elm.parentNode;
-      return (
-        ((elm.scrollTop || parent.scrollTop) /
-          (parent.scrollHeight - parent.clientHeight)) *
-        100
-      );
-    }
-
-    //scroll event
-    document.onscroll = function () {
-      var pos = getVerticalScrollPercentage(document.body);
-
-      if (pos > 50) {
-        //modal popup event on mouseout
-        modalOnMouseOut();
-      }
-    };
-
-
-    $('.popup-ghost-button, .popup-overlay').click(function () {
-      $('.popup-modal').fadeOut('fast');
-    });
-  </script> -->
 
   <!-- Place this tag in your head or just before your close body tag. -->
   <script src="./home_files/buttons.js" defer="" async=""></script>
 
   <!-- OptinMonster -->
-  <script>(function (d) { var s = d.createElement('script'); s.type = 'text/javascript'; s.src = 'https://a.omappapi.com/app/js/api.min.js'; s.async = true; s.dataset.user = '154290'; s.dataset.account = '168035'; d.getElementsByTagName('head')[0].appendChild(s); })(document);</script>
+  <!-- <script>(function (d) { var s = d.createElement('script'); s.type = 'text/javascript'; s.src = 'https://a.omappapi.com/app/js/api.min.js'; s.async = true; s.dataset.user = '154290'; s.dataset.account = '168035'; d.getElementsByTagName('head')[0].appendChild(s); })(document);</script> -->
   <!-- show Osano cookies preference drawer -->
   <script>
     const cookieBtn = document.querySelector('#cookie-preferences-btn')
@@ -2436,68 +2130,7 @@
       cookieBtn.onclick = () => window.Osano?.cm.showDrawer("osano-cm-dom-info-dialog-open")
     }
   </script>
-  <script>
-    // Get the carousel element
-    /*
-    const carousel = document.querySelector('.scroll-2');
 
-    // Get all the .home-users_card elements
-    const cards = document.querySelectorAll('.home-users_card');
-
-    // Add event listeners to each card
-    cards.forEach(card => {
-      card.addEventListener('mouseenter', pauseScroll);
-      card.addEventListener('mouseleave', resumeScroll);
-    });
-
-    // Function to pause the scroll animation
-    function pauseScroll() {
-      carousel.classList.add('paused');
-    }
-
-    // Function to resume the scroll animation
-    function resumeScroll() {
-      carousel.classList.remove('paused');
-    }
-    */
-  </script>
-  <!-- <script type="text/javascript" id="hs-script-loader"
-    src="https://js.hs-analytics.net/analytics/1695179100000/21615363.js"></script>
-  <script type="text/javascript" id="" src="home_files/tags.js"></script>
-  <script type="text/javascript"
-    id="">window.addEventListener("message", function (a) { if ("hsFormCallback" === a.data.type && "onFormSubmit" === a.data.eventName) { var b = a.data.data.find(function (c) { return "email" === c.name }); b = b.value; window.dataLayer.push({ event: "hubspot-form-submit", "hs-form-guid": a.data.id, "hs-form-email": b }) } });</script>
-  <script type="text/javascript"
-    id="">(function (d, e, f, b, c, a) { c = ""; b = "https://tracking.g2crowd.com/attribution_tracking/conversions/" + d + ".js?p\x3d" + encodeURI(e) + "\x26e\x3d" + c; a = document.createElement("script"); a.type = "application/javascript"; a.async = !0; a.src = b; f.getElementsByTagName("head")[0].appendChild(a) })("1008355", document.location.href, document);</script>
-  <script type="text/javascript"
-    id="">!function (b, e, f, g, a, c, d) { b.fbq || (a = b.fbq = function () { a.callMethod ? a.callMethod.apply(a, arguments) : a.queue.push(arguments) }, b._fbq || (b._fbq = a), a.push = a, a.loaded = !0, a.version = "2.0", a.queue = [], c = e.createElement(f), c.async = !0, c.src = g, d = e.getElementsByTagName(f)[0], d.parentNode.insertBefore(c, d)) }(window, document, "script", "https://connect.facebook.net/en_US/fbevents.js"); fbq("init", "2667253716886462"); fbq("track", "PageView"); fbq("track", "Lead");</script>
-  <noscript>
-    <img height="1" width="1" style="display:none"
-      src="https://www.facebook.com/tr?id=2667253716886462&amp;ev=PageView&amp;noscript=1">
-  </noscript> -->
-
-
-  <!-- <div class="go2933276541 go2369186930" id="hs-web-interactives-top-anchor">
-    <div id="hs-interactives-modal-overlay" class="go1632949049"></div>
-  </div>
-  <div class="go2933276541 go1348078617" id="hs-web-interactives-bottom-anchor"></div>
-  <div id="hs-web-interactives-floating-container">
-    <div id="hs-web-interactives-floating-top-left-anchor" class="go2417249464 go613305155">
-    </div>
-    <div id="hs-web-interactives-floating-top-right-anchor" class="go2417249464 go471583506">
-    </div>
-    <div id="hs-web-interactives-floating-bottom-left-anchor" class="go2417249464 go3921366393">
-    </div>
-    <div id="hs-web-interactives-floating-bottom-right-anchor" class="go2417249464 go3967842156">
-    </div>
-  </div> -->
-  <!-- <div id="om-ani2pcfzwumfhgu60qtw-holder"></div>
-  <div id="om-hcmlsdglkfbx80cpbhuo-holder"></div>
-  <div id="om-o9a97arz9tvsdpa0k3qx-holder"></div>
-  <div id="om-vplra1qulrotx8lyx7hs-holder"></div>
-  <div id="om-u3yoeoqvzckrnvzcaxv8-holder"></div><iframe allow="join-ad-interest-group" data-tagging-id="AW-10808716863"
-    data-load-time="1694583332264" height="0" width="0" style="display: none; visibility: hidden;"
-    src="./home_files/10808716863.html"></iframe>
-  <div id="om-ydyluxdh8yjdfisjutnb-holder"></div> -->
 </body>
 
 </html>
